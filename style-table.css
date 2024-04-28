@@ -1,0 +1,103 @@
+body{
+    /* width: 42%; */
+    /* margin-left: 25%; */
+    margin-top: 5%;
+    height: 120px;
+    /* background-color: rgb(253, 199, 199); */
+    /* height: 100%; */
+
+}
+#image{
+    background-image: url(images/signup-image.jpg);
+    filter: blur(20px);
+    -webkit-filter: blur(12px);
+    height: 730%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    margin-left: 38%;
+    margin-bottom: 12%;
+}
+.input{
+    border-radius: 24px;
+    padding: 10px;
+    width: 28%; 
+    margin-bottom: 7%;
+    padding: 14px 12px;
+    width: 40%;
+    margin-left: 28%;
+}
+.label{
+    margin-bottom: 2%;
+    margin-left: 32%;
+}
+#sign-up{
+    line-height: 30%;
+    border: solid 2px;
+    margin: 0 auto;
+    width: 32%;
+    padding: 24px;
+    position: absolute;
+    bottom: 30%;
+    margin-left: 30%;
+    /* margin-top: 10%; */
+    top: 10%;
+    height: 80%;
+    /* background-color:rgb(0,0,0); */
+    background-color: (0,0,0, 0.4);
+    font-size: 20px;
+}
+#signup-but{
+    border-radius: 14px;
+    padding: 10px 12px;
+    border: none;
+    width: 25%;
+    background-color: rgb(22, 195, 248);
+    color: white;
+    text-decoration: none;
+    margin-left: 36%;
+    margin-top: 3%;
+}
+.par{
+    margin-left: 28%;
+    margin-top: 2%;
+}
+.terms{
+    /* margin-left: 3%; */
+}
+#login-que{
+    margin-left: 26%;
+    margin-top: 4%;
+}
+
+
+@media only screen and (max-width: 768px){
+    #image{
+        background-image: url(images/signup-image.jpg);
+        filter: blur(20px);
+        -webkit-filter: blur(12px);
+        /* height: 730%; */
+        height: 430%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #sign-up{
+        line-height: 30%;
+        border: solid 2px;
+        /* margin: 0 auto; */
+        width: 32%;
+        padding: 24px;
+        position: absolute;
+        bottom: 30%;
+        margin-left: 30%;
+        /* margin-top: 10%; */
+        top: 10%;
+        height: 80%;
+        /* background-color:rgb(0,0,0); */
+        background-color: (0,0,0, 0.4);
+        font-size: 20px;
+    }
+}

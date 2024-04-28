@@ -1,0 +1,64 @@
+body{
+    width: 42%;
+    margin-left: 25%;
+    margin-top: 5%;
+    /* height: 300%; */
+    /* margin: 0 auto; */
+
+
+}
+#image{
+    background-image: url(images/signup-image.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 730%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#heading{
+    margin-left: 32%;
+    margin-top: 8%;
+}
+.input-signin{
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 18%;
+    margin-top: 7%;
+    width: 50%;
+}
+
+#login-but{
+    border-radius: 10px;
+    border: none;
+    padding: 9px;
+    width: 36%;
+    background-color: rgb(22, 195, 248);
+    color: white;
+    margin-left: 28%;
+    margin-top: 5%;
+    text-decoration: none;
+}
+#sign-in{
+    /* margin: 0 auto; */
+    border: solid 1px;
+    /* width: 40%; */
+    /* padding: 90px; */
+    /* position: absolute; */
+    top: 10%;
+
+}
+.label{
+    margin-left: 24%;
+    /* margin-bottom: 12px; */
+
+}
+#par{
+    margin-left: 18%;
+    margin-top: 10%;
+}
+
+
+
+
+

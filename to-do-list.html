@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-todo.css">
+</head>
+<body>
+    <div id="nav-but">
+        <button class="but-nav"><a style="text-decoration: none; color: rgb(14, 3, 3);" href="index.html"><b>Home</b></a></button><br><br>
+        <button class="but-nav"><a style="text-decoration: none; color: rgb(14, 3, 3);" href="goal-setting.html"><b>Goal setting</b></a></button><br><br>
+        <button class="but-nav"><a style="text-decoration: none; color: rgb(14, 3, 3);" href="achievements.html"><b>Achievements</b></a></button>
+        <button class="but-nav"><a style="text-decoration: none; color: rgb(14, 3, 3);" href="profile.html"><b>Mentor's profile</b></a></button><br><br>
+    </div>
+
+    <div>
+    <div id="container">
+        <h1 id="to-do">To-do list</h1>
+        <div id="date">
+            <h2>Month __________</h2>
+            <h2>Date __________</h2>
+        </div>
+
+    <div id="content"> 
+    <div>
+        <h2 class="heading">To-do</h2>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+        <br>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+        <br>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+        <br>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+        <br>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+    </div>
+
+    <div>
+        <h2 class="heading">Priorities</h2>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+        <br>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+        <br>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+        <br>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+        <br>
+        <input type="checkbox" class="checkbox">
+        <input type="text" placeholder="Input task" class="input">
+
+    </div>
+    </div> 
+    </div>
+</div>
+    
+</body>
+</html>
+
+
+<!-- <section class="to-do_body">
+    <h2>To-Do list</h2>
+    <input type="text" id="new-task" placeholder="Enter a new task">
+        <button id="add-task" class="add">+ Add</button>
+        <ul id="todo-list"></ul>
+        <script>
+          const todoList = document.getElementById('todo-list');
+          const newTaskInput = document.getElementById('new-task');
+          const addTaskButton = document.getElementById('add-task');
+          const tasks = [];
+          addTaskButton.addEventListener('click', function() {
+            const task = newTaskInput.value.trim();
+            if (task) {
+              tasks.push(task);
+              newTaskInput.value = '';
+              renderTodoList();
+            }
+          });
+          function renderTodoList() {
+            todoList.innerHTML = '';
+            tasks.forEach((task, index) => {
+              const listItem = document.createElement('li');
+              listItem.innerText = task;
+              const deleteButton = document.createElement('button');
+              deleteButton.innerText = 'Delete';
+              deleteButton.addEventListener('click', function() {
+                tasks.splice(index, 1);
+                renderTodoList();
+              });
+              listItem.appendChild(deleteButton);
+              todoList.appendChild(listItem);
+            });
+          }
+        </script> -->
+
+
+
+
+
+
+           <!-- <input type="text" id="new-task" placeholder="Enter a new task">
+        <button id="add-task" class="add">+ Add</button>
+        <ul id="todo-list"></ul> -->
+        <!-- <input type="text" placeholder="Input task" class="input"> -->
+
+
+        <!-- <div>
+        <input type="text" name="" id="myChoice" placeholder="Title...">
+        <!-- <span> onclick="newElement" class="addButton">Add </span> -->
+        <!-- <span onclick="newElement()" class="addBtn">Add</span>
+       </div> -->
+    -->
