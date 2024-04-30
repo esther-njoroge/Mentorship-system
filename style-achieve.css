@@ -7,8 +7,7 @@ body{
     border: solid 1px;
     height: 850px;
     width: 1300px;
-    background-color: white;
-    
+    background-color: white;   
 }
 #content{
     /* margin-left: 20%; */
@@ -53,4 +52,29 @@ body{
     border-radius: 5px;
     padding: 8px;
     width: 50%;
+}
+
+@media only screen and(min-width: 376px) and (max-width: 600px){
+    #container{
+        margin-left: 20%;
+        border: solid 1px;
+        height: 850px;
+        width: 40px;
+        background-color: white;   
+    }
+    #achieve{
+        border: solid 1px;
+        width: 20%;
+        height: 350px;
+        margin-top: 4%;
+        margin-left: 25%;
+    }
+    #struggles{
+        border: solid 1px;
+        width: 10%;
+        height: 350px;
+        margin-top: 4%;
+        margin-left: 20%;
+    }
+
 }

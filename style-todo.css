@@ -24,6 +24,12 @@ body{
     border-radius: 15px;
     width: 20%;
 }
+#nyj-but{
+    border-radius: 10px;
+    padding: 10px;
+    width: 87%;
+
+}
 #to-do{
     margin-left: 40%;
 }
@@ -52,4 +58,80 @@ body{
     border-radius: 10px;
     padding: 10px;
     /* width: 100%; */
+}
+
+
+@media (min-width: 376px) and (max-width: 600px){
+    #container{
+        border: solid 1px;
+        width: 80%;
+        height: 1100px;
+        margin-left: 15%;
+        margin-top: 4%;
+        background-color: white;
+    
+    }
+    #nav-but{
+        display: flex;
+        gap: 4%;
+        margin-top: 3%;
+        margin-left: 10%;
+    
+    }
+    .but-nav{
+        padding: 10px;
+        border-radius: 15px;
+        width: 20%;
+    }
+    #content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30%;
+        margin-left: 18%;
+    }
+    #date{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+        margin-left: 20%;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 1300px){
+    #container{
+        border: solid 1px;
+        width: 80%;
+        height: 1100px;
+        margin-left: 15%;
+        margin-top: 4%;
+        background-color: white;
+    
+    }
+    #content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30%;
+        margin-left: 18%;
+    }
+    #date{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+        margin-left: 20%;
+    }
+    #nav-but{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4%;
+        margin-top: 3%;
+        margin-left: 10%;
+    
+    }
+    .but-nav{
+        padding: 10px;
+        border-radius: 15px;
+        width: 20%;
+    }
+
 }

@@ -40,10 +40,58 @@ body{
 .input{
     border-radius: 5px;
     padding: 8px;
-    /* width: 150%; */
+    margin-top: 2%;
     width: 90%;
 }
 .all-goals{
     border: solid 1px;
     width: 70%;
+    height: 250px;
+}
+
+
+@media (min-width: 280px) and (max-width: 375px){
+    #nav-but{
+        display: flex;
+        gap: 5%;
+        margin-top: 2%;
+        margin-left: 10%;
+    
+    }
+    .but-nav{
+        padding: 10px;
+        border-radius: 15px;
+        width: 20%;
+    }
+
+}
+
+@media (min-width: 376px) and (max-width: 600px){
+    #nav-but{
+        display: flex;
+        gap: 5%;
+        margin-top: 2%;
+        margin-left: 10%;
+    
+    }
+    .but-nav{
+        padding: 10px;
+        border-radius: 15px;
+        width: 20%;
+    }
+    #goal-heading{
+        margin-left: 28%;
+    }
+    .all-goals{
+        border: solid 1px;
+        width: 90%;
+        height: 250px;
+    }
+    .input{
+        border-radius: 5px;
+        padding: 6px;
+        margin-top: 2%;
+        width: 80%;
+    }
+
 }
