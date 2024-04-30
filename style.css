@@ -6,9 +6,9 @@ body{
 }
 nav{
     display: flex;
-    gap: 10%;
+    gap: 8%;
     margin-bottom: 2%;
-    margin-top: 3%;
+    margin-top: 5%;
     text-decoration: none;
 }
 .nav-tag{
@@ -18,7 +18,10 @@ nav{
     font-size: 20px;
 }
 #logo{
-    width: 80px;
+    width: 130px;
+    margin-bottom: 2%;
+
+    /* height: 50px; */
 }
 #content{
     display: flex;
@@ -236,3 +239,12 @@ nav{
 /* 280, 668
 760, 1025
 1026,1200 */
+
+
+@media (min-width: 376px) and (max-width: 600px){
+
+}
+
+/* @media (min-width: 601px) and (max-width: 1300px){
+
+} */
