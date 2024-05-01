@@ -10,7 +10,7 @@ body{
 #image{
     background-image: url(images/signup-image.jpg);
     filter: blur(20px);
-    -webkit-filter: blur(12px);
+    -webkit-filter: blur(25px);
     height: 730%;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,22 +73,19 @@ body{
 }
 
 
-@media only screen and (max-width: 768px){
-    #image{
-        background-image: url(images/signup-image.jpg);
-        filter: blur(20px);
-        -webkit-filter: blur(12px);
-        /* height: 730%; */
-        height: 430%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+
+      
+        
+@media (min-width: 280px) and (max-width: 375px){
+    .heading{
+        margin-left: 30%;
+        margin-bottom: 12%;
     }
     #sign-up{
         line-height: 30%;
         border: solid 2px;
-        /* margin: 0 auto; */
-        width: 32%;
+        margin: 0 auto;
+        width: 40%;
         padding: 24px;
         position: absolute;
         bottom: 30%;
@@ -100,4 +97,6 @@ body{
         background-color: (0,0,0, 0.4);
         font-size: 20px;
     }
+  
+
 }

@@ -6,6 +6,7 @@ body{
     margin-left: 33%;
     margin-top: 2%;
     border: solid 1px;
+    border-radius: 60px;
     width: 40%;
     height: 850px;
     background-color: white;
@@ -41,4 +42,110 @@ body{
 .par{
     margin-left: 28%;
     font-size: 16px;
+}
+
+
+@media (min-width: 280px) and (max-width: 375px){
+    #container{
+        margin-left: 5%;
+        margin-top: 2%;
+        border: solid 1px;
+        border-radius: 60px;
+        width: 90%;
+        height: 620px;
+        background-color: white;
+    
+    }
+    #nav-but{
+        display: flex;
+        gap: 2%;
+        margin-top: 2%;
+        margin-left: 10%;
+    
+    }
+    .but-nav{
+        padding: 6px;
+        border-radius: 15px;
+        width: 20%;
+    }
+    #image{
+        border-radius: 50%;
+        width: 90px;
+        margin-left: 34%;
+        margin-top: 5%;
+    }
+    .input{
+        border-radius: 18px;
+        padding: 1px;
+        border: solid 1px;
+        width: 72%;
+        margin-right: 20%;
+        margin-top: 3%;
+        margin-left: 12%;
+    }
+    .par{
+        margin-left: 20%;
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 376px) and (max-width: 600px){
+    #container{
+        margin-left: 5%;
+        margin-top: 2%;
+        border: solid 1px;
+        border-radius: 60px;
+        width: 90%;
+        height: 670px;
+        background-color: white;
+    
+    }
+    #image{
+        border-radius: 50%;
+        width: 100px;
+        margin-left: 34%;
+        margin-top: 5%;
+    }
+    #nav-but{
+        display: flex;
+        gap: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    
+    }
+    .but-nav{
+        padding: 10px;
+        border-radius: 15px;
+        width: 20%;
+    }
+    .input{
+        border-radius: 15px;
+        padding: 5px;
+        border: solid 1px;
+        width: 72%;
+        margin-right: 20%;
+        margin-top: 4%;
+        margin-left: 15%;
+    }
+    .par{
+        margin-left: 18%;
+        font-size: 16px;
+    }
+    
+
+}
+
+@media (min-width: 601px) and (max-width: 1300px){
+    #container{
+        margin-left: 5%;
+        margin-top: 2%;
+        border: solid 1px;
+        border-radius: 60px;
+        width: 90%;
+        height: 890px;
+        background-color: white;
+    
+    }
+
 }

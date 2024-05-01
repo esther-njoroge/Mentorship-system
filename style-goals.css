@@ -5,6 +5,8 @@ body{
 #container{
     margin-left: 12%;
     border: solid 1px;
+    border-radius: 60px;
+    border-color: rgb(253, 199, 199);
     height: 800px;
     width: 80%;
     margin-top: 2%;
@@ -30,6 +32,7 @@ body{
     display: flex;
     gap: 28%;
     margin-left: 5%;
+    margin-right: 5%;
     margin-top: 4%;
 }
 .heading{
@@ -51,6 +54,17 @@ body{
 
 
 @media (min-width: 280px) and (max-width: 375px){
+    #container{
+        margin-left: 3%;
+        border: solid 1px;
+        border-radius: 60px;
+        border-color: rgb(253, 199, 199);
+        height: 550px;
+        width: 95%;
+        margin-top: 2%;
+        background-color: white;
+    
+    }
     #nav-but{
         display: flex;
         gap: 5%;
@@ -58,15 +72,42 @@ body{
         margin-left: 10%;
     
     }
-    .but-nav{
-        padding: 10px;
-        border-radius: 15px;
-        width: 20%;
+    #goal-heading{
+        margin-left: 30%;
+    }
+    .goals{
+        display: flex;
+        gap: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 4%;
+    }
+    .input{
+        border-radius: 5px;
+        padding: 3px;
+        margin-top: 2%;
+        width: 70%;
+    }
+    .all-goals{
+        border: solid 1px;
+        width: 80%;
+        height: 200px;
     }
 
 }
 
 @media (min-width: 376px) and (max-width: 600px){
+    #container{
+        margin-left: 5%;
+        border: solid 1px;
+        border-radius: 60px;
+        border-color: rgb(253, 199, 199);
+        height: 600px;
+        width: 90%;
+        margin-top: 2%;
+        background-color: white;
+    
+    }
     #nav-but{
         display: flex;
         gap: 5%;
@@ -77,21 +118,46 @@ body{
     .but-nav{
         padding: 10px;
         border-radius: 15px;
-        width: 20%;
+        width: 22%;
     }
     #goal-heading{
         margin-left: 28%;
     }
     .all-goals{
         border: solid 1px;
-        width: 90%;
-        height: 250px;
+        width: 290px;
+        height: 200px;
     }
+    .input{
+        border-radius: 5px;
+        padding: 3px;
+        margin-top: 2%;
+        width: 75%;
+    }
+    .goals{
+        display: flex;
+        gap: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 4%;
+    }
+  
+
+}
+
+@media (min-width: 601px) and (max-width: 1300px){
     .input{
         border-radius: 5px;
         padding: 6px;
         margin-top: 2%;
-        width: 80%;
+        width: 75%;
+    }
+    .goals{
+        display: flex;
+        gap: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
     }
 
 }

@@ -18,10 +18,8 @@ nav{
     font-size: 20px;
 }
 #logo{
-    width: 130px;
-    margin-bottom: 2%;
-
-    /* height: 50px; */
+    width: 140px;
+    margin-top: -4%;
 }
 #content{
     display: flex;
@@ -44,207 +42,111 @@ nav{
 }
 
 
-@media (max-width: 376px){
-    nav{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4%;
-        margin-bottom: 2%;
-        margin-top: 3%;
-        text-decoration: none;
-    }
-    #image{
-        height: 450px;
-        margin-top: 10%;
-        width: 320px;
-    }
-    #content{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20%;
-    }
-    #heading{
-        font-size: 50px;
-    }
-
-  
-}
 
 
-
-@media (min-width: 411px) and (max-width:430px){
-    nav{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3%;
-        margin-bottom: 2%;
-        margin-top: 3%;
-        text-decoration: none;
-    }
-    #content{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5%;
-    } 
-    #heading{
-        font-size: 30px;
-    } 
-    #image{
-        height: 130px;
-        margin-top: 10%;
-        width: 138px;
-    }
-     #par{
-        font-size: 20px;
-    }
-    #sen-img{
-        font-size: 18px;
-        margin-left: 4%;
-    }
-}
-  
-  
- @media (max-width: 1024px){
-    nav{
-        display: flex;
-        gap: 10%;
-        margin-bottom: 2%;
-        margin-top: 3%;
-        text-decoration: none;
-    }
-    #image{
-        height: 400px;
-        margin-top: 10%;
-        width: 400px;
-    }
-    #heading{
-        font-size: 70px;
-    }
-
- }
- @media (min-width: 768px) and (max-width: 912px){
-    nav{
-        display: flex;
-        gap: 5%;
-        margin-bottom: 2%;
-        margin-top: 3%;
-        text-decoration: none;
-    }
-    #image{
-        height: 300px;
-        margin-top: 10%;
-        width: 300px;
-    }
-    #heading{
-        font-size: 40px;
-    }
-
- }
-
-/* @media (max-width: 767.98px){
-    nav{
-        display: flex;
-        gap: 10%;
-        margin-bottom: 2%;
-        margin-top: 3%;
-        text-decoration: none;
-    }
-    #content{
-        display: flex;
-        gap: 10%;
-    }
-    #heading{
-        font-size: 40px;
-    }
-    #image{
-        height: 450px;
-        margin-top: 10%;
-        width: 400px;
-    }
-}
-
-/* @media (max-width: 991.98px){
-    nav{
-        display: flex;
-        gap: 5%;
-        margin-bottom: 2%;
-        margin-top: 3%;
-        text-decoration: none;
-    }
-    #content{
-        display: flex;
-        gap: 3%;
-    }
-    #heading{
-        font-size: 70px;
-    }
-    #par{
-        font-size: 20px;
-    }
-    #image{
-        height: 240px;
-        margin-top: 10%;
-        width: 380px;
-    }
-    #sen-img{
-        font-size: 20px;
-        margin-left: 4%;
-    }
+@media (min-width: 376px) and (max-width: 600px){
+    body{
+        background-color: rgb(253, 199, 199);
+        margin-left: 2%;
+        margin-right: 2%;
     
-
-} */
-
-/* @media only screen and(min-width:280px)and ( max-width:600px){
+    }
     nav{
         display: flex;
-        gap: 3%;
+        flex-wrap: wrap;
+        gap: 10%;
         margin-bottom: 2%;
-        margin-top: 3%;
+        margin-top: 5%;
         text-decoration: none;
     }
     .nav-tag{
         text-decoration: none;
-        color: rgb(228, 30, 122);
+        /* color: rgb(228, 30, 122); */
+        /* color: rgb(235, 24, 154); */
+        font-size: 8px;
+    }
+    #logo{
+        width: 30px;
+        margin-top: -4%;
     }
     #content{
         display: flex;
+        flex-wrap: wrap;
         gap: 20%;
     }
     #heading{
         font-size: 20px;
     }
     #par{
-        font-size: 30px;
+        font-size: 10px;
     }
     #image{
-        height: 450px;
+        height: 160px;
         margin-top: 10%;
-        width: 300px;
+        width: 150px;
     }
-    
-} */
-
-
-/* @media screen and (max-width: 412px){
-    #image{
-        height: 450px;
-        margin-top: 10%;
-        width: 300px;
+    #sen-img{
+        font-size: 10px;
+        margin-left: 4%;
     }
-    #heading{
-        font-size: 40px;
-    }
-
-} */
-/* 280, 668
-760, 1025
-1026,1200 */
-
-
-@media (min-width: 376px) and (max-width: 600px){
 
 }
 
-/* @media (min-width: 601px) and (max-width: 1300px){
 
-} */
+@media (min-width: 601px) and (max-width: 1300px){
+    #image{
+        height: 250px;
+        margin-top: 30%;
+        width: 300px;
+    }
+    #content{
+        display: flex;
+        gap: 16%;
+    }
+    nav{
+        display: flex;
+        gap: 5%;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        text-decoration: none;
+    }
+    #par{
+        font-size: 30px;
+    }
+    #heading{
+        font-size: 60px;
+    }
+ 
+
+}
+
+@media (min-width: 280px) and (max-width: 375px){
+    #image{
+        height: 250px;
+        margin-top: 30%;
+        width: 350px;
+    }
+    #content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16%;
+
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50%;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        text-decoration: none;
+    }
+    #heading{
+        font-size: 60px;
+    }
+    #logo{
+        width: 100px;
+        margin-top: -4%;
+    }
+
+
+}

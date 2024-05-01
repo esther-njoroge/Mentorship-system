@@ -1,20 +1,33 @@
 body{
-    width: 42%;
+    /* width: 42%;
     margin-left: 25%;
-    margin-top: 5%;
-    /* height: 300%; */
-    /* margin: 0 auto; */
-
-
+    margin-top: 5%; */
+    /* background-image: url(images/login-image.jpeg); */
+    /* filter: blur(20px); */
+    /* -webkit-filter: blur(25px); */
+    height: 730%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
+   
+
+
+
+
 #image{
-    background-image: url(images/signup-image.jpg);
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    background-image: url(images/login-image.jpeg);
+    background-size: cover;
+    /* filter: blur(20px); */
+    /* -webkit-filter: blur(25px); */
+    /* position: relative; */
+
     height: 730%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+
 }
 #heading{
     margin-left: 32%;
@@ -39,15 +52,22 @@ body{
     margin-top: 5%;
     text-decoration: none;
 }
-#sign-in{
-    /* margin: 0 auto; */
-    border: solid 1px;
-    /* width: 40%; */
-    /* padding: 90px; */
-    /* position: absolute; */
+ #sign-in{
+    border: solid 2px;
+    width: 40%;
+    position: absolute;
     top: 10%;
 
-}
+    width: 42%;
+    margin-left: 25%;
+    margin-top: 5%;
+    /* background-color: (0,0,0, 0.4); */
+    /* background-color: rgb(226, 196, 196); */
+
+   
+ }
+
+
 .label{
     margin-left: 24%;
     /* margin-bottom: 12px; */

@@ -5,6 +5,7 @@ body{
 #container{
     margin-left: 20%;
     border: solid 1px;
+    border-radius: 60px;
     height: 850px;
     width: 1300px;
     background-color: white;   
@@ -54,27 +55,90 @@ body{
     width: 50%;
 }
 
-@media only screen and(min-width: 376px) and (max-width: 600px){
+
+@media (min-width: 280px) and (max-width: 375px){
     #container{
-        margin-left: 20%;
+        margin-left: 1%;
         border: solid 1px;
-        height: 850px;
-        width: 40px;
+        border-radius: 60px;
+        height: 710px;
+        width: 350px;
         background-color: white;   
     }
     #achieve{
         border: solid 1px;
-        width: 20%;
-        height: 350px;
+        width: 75%;
+        height: 300px;
         margin-top: 4%;
-        margin-left: 25%;
+        margin-left: 12%; 
     }
     #struggles{
         border: solid 1px;
-        width: 10%;
-        height: 350px;
-        margin-top: 4%;
-        margin-left: 20%;
+        width: 75%;
+        height: 300px;
+        margin-top: 1%;
+        margin-left: 12%;
+    }
+    #nav-but{
+        display: flex;
+        gap: 5%;
+        margin-bottom:2%;
+        margin-left: 10%; 
+    
+    }
+    .input{
+        border-radius: 5px;
+        padding: 4px;
+        width: 70%;
     }
 
 }
+
+@media (min-width: 376px) and (max-width: 600px){
+    #container{
+        margin-left: 2%;
+        border: solid 1px;
+        border-radius: 60px;
+        height: 780px;
+        width: 370px;
+        background-color: white;   
+    }
+    #nav-but{
+        display: flex;
+        gap: 5%;
+        margin-bottom:2%;
+        margin-left: 10%;
+        /* padding: 15px; */
+        /* border-radius: 10px; */
+    
+    }
+    .but-nav{
+        padding: 10px;
+        border-radius: 15px;
+        width: 20%;
+    }
+    #achieve{
+        border: solid 1px;
+        width: 75%;
+        height: 330px;
+        margin-top: 4%;
+        margin-left: 12%;
+    }
+    #struggles{
+        border: solid 1px;
+        width: 75%;
+        height: 330px;
+        margin-top: 4%;
+        margin-left: 12%;
+    }
+    .input{
+        border-radius: 5px;
+        padding: 8px;
+        width: 70%;
+    }
+  
+    
+}
+
+@media (min-width: 601px) and (max-width: )
+ 
